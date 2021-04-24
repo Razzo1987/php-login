@@ -18,7 +18,7 @@ if (isset($admin_email)) {
 
 } else {
 
-    $newemail = $_POST['email'];
+    $newemail = $newemail;
 
 }
 //Validation rules
